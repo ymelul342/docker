@@ -3,7 +3,7 @@ pipeline {
 
   tools {nodejs "node"}
   environment {
-    imageName = ymelul/demo-pipeline
+    imageName = 'ymelul/demo-pipeline'
     dockerCredentialsName='dockerhub-creds'
     dockerImage = ''
   }
